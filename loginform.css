@@ -1,0 +1,67 @@
+body{
+   box-sizing: border-box; 
+   font-family: sans-serif;
+   background-image:  url(AdobeStock_590984956_Preview.jpeg);
+   opacity: 0.5;
+   height: 100vh;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.main-menu{
+   height: 400px;
+   width: 400px;
+   margin-top: 10%;
+   background-color: black;
+   justify-content: space-between;
+   align-items: center;
+   float: center;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.main-box{
+   color: white;
+   padding: 5%;
+   padding-left: 5%;
+   padding-right: 10%;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+   width: 350px;
+   height: 400px;
+   text-align: center;
+}
+h1{
+   font-size: 50px;
+   font-weight: 800;
+   font-style: inherit;
+   padding: 5%;
+   text-align: center;
+}
+input[type=text], input[type=password] {
+   border: none;
+   padding: 5%;
+   border-bottom: 2px solid #54473f;
+   width: 70%;
+   margin-left: 5px;
+  box-sizing: border-box;
+}
+
+button[type=submit]{
+   box-sizing: border-box;
+    border: 2.0px solid #fff;
+    background-color: black;
+    margin-bottom: 15px;
+    width: 70%;
+    max-width: 70%;
+    padding: 10px 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
